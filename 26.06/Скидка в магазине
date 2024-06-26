@@ -1,0 +1,13 @@
+money = int (input ())
+if (money>=500 and money<1000):
+    print ('Скидка 100р с вас',money-100)
+elif (money>=1000 and money<2000):
+    print ('Скидка 200р с вас',money-200)
+elif (money>=2000 and money<3000):
+    print ('Скидка 300р c вас',money-300)
+elif (money>=3000 and money<4000):
+    print ('Скидка 400р c вас',money-400)
+elif (money>=4000 and money<5000):
+    print ('Скидка 500р c вас',money-500)
+elif (money>=5000):
+    print ('Вам торт в подарок!')
