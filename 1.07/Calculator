@@ -1,0 +1,31 @@
+import math
+n1= float (input ())
+s = int (input ())
+n2= float (input ())
+
+
+#0 это +
+#1 это -
+#2 это /
+#3 это *
+#4 это %
+#5 это факториал
+#6 это степень
+#7 это корень
+
+if (s >=0 and s <1):
+    print (n1+n2)
+elif (s >=1 and s <2):
+    print (n1-n2)
+elif (s >=4 and s <5):
+    print ((n1/100)*n2)
+elif (s >=2 and s <3):
+    print (n1/n2)
+elif (s >=3 and s <4):
+    print (n1*n2)
+elif (s >=6 and s <7):
+    print (n1**n2)
+elif (s >=5 and s <6):
+    print (math.factorial (n1))
+elif (s >=7 and s <8):
+    print (math.sqrt (n1))
